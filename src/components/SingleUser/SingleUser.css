@@ -1,0 +1,48 @@
+
+.singleUser {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.btns{
+    display: flex;
+    flex-direction: column;
+}
+
+.edit, .delete {
+   margin-left: 20px;
+   color: rgba(10, 7, 6, 0.737);
+   background-color: darkcyan;
+   border-radius: 5px;
+   border: 2px solid darkcyan;
+}
+
+.edit {
+    margin-bottom: 3px;
+}
+.delete {
+    margin-top: 3px;
+}
+
+input {
+    width: 400px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #555;
+    outline: none;
+}
+.btnup{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.updateBtn {
+    width: 100px;
+    height: 30px;  
+}
